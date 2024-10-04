@@ -1,0 +1,142 @@
+@import url(reset.css);
+
+header {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 56px;
+    grid-template-areas: "menu . search search . user";
+    align-items: center;
+}
+
+.container_menu {
+    display: flex;
+    width: 146px;
+    justify-content: space-between;
+    grid-area: menu;
+}
+
+.container_menu img {
+    width: 90px;
+    height: 20px;
+}
+
+.container_search {
+    width: 100%;
+    display: flex;
+    grid-area: search;
+    justify-content: center;
+}
+
+#search {
+    width: 348px;
+    height: 40px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+#lupa {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #ccc;
+}
+
+#lupa img {
+    width: 24px;
+    height: 24px;
+}
+
+.container_user {
+    display: flex;
+    width: 130px;
+    height: 34px;
+    grid-area: user;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+}
+
+.container_user img {
+    width: 24px;
+    height: 24px;
+}
+
+#user {
+    width: 34px;
+    height: 34px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 218px 1fr;
+}
+
+nav {
+    grid-column: 1 / 2;
+    width: 218px;
+    height: 968px;
+    top: 56px;
+    padding: 24px;
+    gap: 22px;
+}
+
+.home, .compass, .subs, .disc, .thumbs_up, .clock, .download, .film, .learn, .award {
+    height: 24px;
+    gap: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+article {
+    padding: 16px;
+    gap: 16px;
+    background-color: #f8f8f8;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+}
+
+.video {
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.video img {
+    border-radius: 5px;
+}
+
+.info {
+    display: flex;
+    width: 249px;
+    height: 74px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.info img {
+    width: 42px;
+    height: 42px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.view {
+    font-size: 12px;
+    color: gray;
+}
