@@ -15,3 +15,7 @@ Este projeto é uma landing page estática, simulando parte da interface do YouT
 ## 📚 O que Aprendi
 
 Este projeto foi um marco no aprendizado de **CSS Grid** e de como utilizá-lo para criar layouts complexos e flexíveis. Consegui organizar facilmente os elementos visuais da página, porém, ainda não implementei responsividade.
+
+## 🌐 Acesse o projeto online
+
+🔗 [YouTube Clone Layout - Página no ar](https://pardal-code.github.io/lading_pg_home_YouTube/)  
